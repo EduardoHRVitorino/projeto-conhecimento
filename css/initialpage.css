@@ -5,15 +5,8 @@
 
     
 }
-div.logo{
-    background-image: url(../imgs/Icons8-Windows-8-Science-Physics.ico);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 60px;
-}
+
 h1{
-    padding-top: 54px;
-    height: 99px;
     margin: auto;
     text-align: center;
     font-size: 76px;

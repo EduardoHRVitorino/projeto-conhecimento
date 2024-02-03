@@ -4,6 +4,12 @@
 :root{
     --fontehand:  'Great Vibes', cursive;
     --fontetitle: 'Protest Strike', sans-serif;
+    --verde1: #1FED47;
+    --verde2: #4CED28;
+    --ciano:#2AEBD2;
+    --ciano2: #2AEB91;
+    --ciano3: #2AC5EB;
+
 
     
 }
@@ -19,5 +25,10 @@ p{
     margin: 0px;
 }
 a{
-    padding: 10px;
+    padding: 10px; color: white; text-decoration: none; font-size: larger;
 }
+h2{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+nav{background-color: var(--verde1); border-radius: 10px;width: 900px; height: 35px;}

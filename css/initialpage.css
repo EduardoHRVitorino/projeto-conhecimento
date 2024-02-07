@@ -41,7 +41,7 @@ p{
 }
 header {
     margin: auto;
-    background-color: black;
+    background-image: linear-gradient(to top, black, rgb(0, 0, 0), rgb(9, 9, 9), rgb(0, 0, 0), black);
  
  
 }
@@ -61,6 +61,7 @@ main{
 main > h2{
     margin: auto;
     text-align: center;
+    padding: 10px;
   
 }
 a{
@@ -82,8 +83,9 @@ h2{
 nav{
 
     min-width: 300px;
-    max-width: 1500px;
+    max-width: 1000px;
     background-color: var(--verde1); border-radius: 10px;
     padding-top: 10px; padding-bottom: 10px;
+    margin-bottom: 30px;
 
 }

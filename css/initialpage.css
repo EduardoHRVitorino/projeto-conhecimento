@@ -22,6 +22,8 @@ html, body{
     height: 100%;
 }
 body{
+
+
     background-image: linear-gradient(to top, var(--ciano), var(--ciano2), var(--ciano3)); background-attachment: fixed;
 }
 
@@ -38,6 +40,7 @@ p{
     margin: 0px;
 }
 header {
+    min-height: 150px;
     margin: auto;
     background-color: black;
     margin-bottom: 11px;
@@ -62,9 +65,13 @@ main h2{
   
 }
 a{
-    padding: 5px; color: white; text-decoration: none; font-size: larger;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px; color: white; text-decoration: none; font-size: larger;
+  
 }
 a:hover{
+    transition-duration: 0.5s;
     padding: 10px;
     background-color: #179e32;
 }
@@ -73,7 +80,10 @@ h2{
     margin-bottom: 10px;
 }
 nav{
-    
-    background-color: var(--verde1); border-radius: 10px;width: 900px; height: 35px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: var(--verde1); border-radius: 10px;
+    margin-top: 20px;
     padding: 10px;
+
 }

@@ -40,11 +40,10 @@ p{
     margin: 0px;
 }
 header {
-    min-height: 150px;
     margin: auto;
     background-color: black;
-    margin-bottom: 11px;
-    min-height: 118px;
+ 
+ 
 }
 main{
     min-width: 300px;
@@ -52,27 +51,28 @@ main{
     margin: auto;
     padding-top: 20px;
     background-color: white;
-    margin-top: 0px; margin-bottom: 50px; margin-right: 100px; margin-left: 100px;
+   
     border-left-width: 1px;border-left-style: solid;
     border-right-width: 1px; border-right-style: solid;
     border-bottom-width: 1px; border-bottom-style: solid;
     border-top-width: 1px;border-top-style: solid;
     border-radius: 10px;
 }
-main h2{
-
+main > h2{
+    margin: auto;
     text-align: center;
   
 }
 a{
     min-width: 300px;
     max-width: 1000px;
-    padding: 10px; color: white; text-decoration: none; font-size: larger;
+    padding: 16px; color: white; text-decoration: none; font-size: larger;
   
 }
 a:hover{
     transition-duration: 0.5s;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 13px;
     background-color: #179e32;
 }
 h2{
@@ -80,10 +80,10 @@ h2{
     margin-bottom: 10px;
 }
 nav{
+
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1500px;
     background-color: var(--verde1); border-radius: 10px;
-    margin-top: 20px;
-    padding: 10px;
+    padding-top: 10px; padding-bottom: 10px;
 
 }

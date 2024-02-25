@@ -65,9 +65,8 @@ main > h2{
   
 }
 a{
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 16px; color: white; text-decoration: none; font-size: 1.5vw;
+
+    padding: 16px; color: white; text-decoration: none; font-size: 1.9vw;
   
 }
 a:hover{
@@ -83,7 +82,7 @@ h2{
 nav{
 
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 2000px;
     background-color: var(--verde1); border-radius: 10px;
     padding-top: 10px; padding-bottom: 10px;
     margin-bottom: 30px;

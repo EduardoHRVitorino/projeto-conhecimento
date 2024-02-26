@@ -88,3 +88,24 @@ nav{
     margin-bottom: 30px;
     
 }
+
+picture > img {
+    display: inline-block;
+    width: 300px;
+    position:relative;
+
+}
+img{
+    position: absolute;
+    display: inline;
+    left: 50%;
+}
+.paragrafol{
+    text-indent: 30px;
+    position: relative;
+    vertical-align: top;
+    display: inline;
+    text-align: left;
+
+    
+}
